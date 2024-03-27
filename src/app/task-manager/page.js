@@ -33,7 +33,6 @@ const TaskManager = () => {
                 taskNo={eachTask}
                 key={`todo-${key}`}
                 onClick={() => {
-                  console.log('click...')
                   moveTask("inprogress", eachTask);
                 }}
                 bgColor="bg-red-600"
